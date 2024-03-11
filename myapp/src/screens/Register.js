@@ -34,8 +34,6 @@ function Register() {
         <h3>{email} and {password}</h3>
         </div>
       ): <h1>You are not eligible</h1>}
-      
-      
     </form>
   )
 }
