@@ -1,11 +1,13 @@
 import './App.css';
 import About from './screens/About.js';
 import Register from './screens/Register.js'
+import UseStateHook from './screens/UseStateHook.js';
 import UserList from './screens/UserList.js'
 function App() {
   return (
     
     <div className="App">
+      <UseStateHook/>
       <Register/>
      <h1>Hello Nikita!</h1>
      <h1>UserList</h1>
